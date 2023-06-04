@@ -4,4 +4,4 @@ let idade = 33;
 
 console.log(idade);
 
-//codigo com erro. 
+//codigo com erro. Não usar var.
