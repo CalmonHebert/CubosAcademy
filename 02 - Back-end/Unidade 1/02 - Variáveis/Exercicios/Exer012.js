@@ -1,3 +1,4 @@
+// Casos de COVID
 const p = 1000;
 const x = 4;
 const t = 100;
