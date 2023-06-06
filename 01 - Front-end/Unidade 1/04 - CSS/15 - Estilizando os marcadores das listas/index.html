@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .lista-quadrada {
+      list-style-type: square;
+    }
+
+    .lista-circulo {
+      list-style-type: disc;
+    }
+
+    .lista-circulo-aberto {
+      list-style-type: circle;
+    }
+
+    /* list-style-type modifica o estilo da lista. EX: bolinhas, quadrados, números */
+  </style>
+</head>
+
+<body>
+  <h1>Tarefas</h1>
+
+  <ul class="lista-quadrada">
+    <li>Tarefa 1</li>
+    <li class="lista-circulo">Tarefa 2</li>
+    <ul class="lista-circulo-aberto">
+      <li>Tarefa 2.1</li>
+      <li>Tarefa 2.2</li>
+      <li>Tarefa 2.3</li>
+      <ul class="lista-circulo">
+        <li>Tarefa 2.3.1</li>
+        <li>Tarefa 2.3.2</li>
+      </ul>
+    </ul>
+    <li>Tarefa 3</li>
+    <li>Tarefa 4</li>
+  </ul>
+</body>
+
+</html>
