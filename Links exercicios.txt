@@ -6,10 +6,11 @@ https://github.com/yuri-andrade97/Exercicios-CubosAcademy-Frontend
 https://github.com/Hyagobsantos/Cubos-Academy-Exercicios/tree/master/Modulo-01
 
 https://github.com/GeraldinJr/Exercicios-CubosAcademy/tree/master/modulo_I
-
+https://github.com/daniseveriano/frontend-modulo-1-cubos-academy
 back
 
 https://github.com/yuri-andrade97/Exercicios-CubosAcademy-Backend
+https://github.com/daniseveriano/backend-modulo-1-cubos-academy
 
 
 desafios
