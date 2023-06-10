@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(158, 158, 158);
+}
+
+h1 {
+  color: brown;
+  font-size: 60px;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+
+li {
+  list-style: upper-roman;
+  color: white;
+  font-size: 18px;
+}
