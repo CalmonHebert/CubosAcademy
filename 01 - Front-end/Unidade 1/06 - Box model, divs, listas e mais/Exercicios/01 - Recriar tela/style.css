@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'Godzilla';
+  src: url('assets/Godzilla.ttf');
+}
+
+body {
+  background-color: #F7F8F7;
+  color: #2C2D29;
+  font-family: 'cursive', 'arial';
+
+}
+
+.card-principal img {
+  display: block;
+  border-radius: 25px;
+  box-shadow: 0px 3px 8px black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-principal h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Godzilla", monospace;
+}
+
+.card-curiosidades {
+  background-color: #FC4E1E;
+  color: #F7F8F7;
+  border-radius: 10px;
+  padding: 25px;
+  max-width: 50%;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.card-curiosidades li {
+  text-align: justify;
+  font-size: 20px;
+  list-style: upper-roman;
+  font-family: monospace;
+}
+
+.card-musicas {
+  background-color: #FDB350;
+  border-radius: 10px;
+  padding: 25px;
+  max-width: 50%;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: monospace;
+
+}
+
+h2 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 32px;
+  font-family: "Godzilla", monospace;
+}
+
+.card-banda,
+.card-audio {
+  display: inline;
+  font-size: 16px;
+  vertical-align: top;
+}
+
+.card-banda img {
+  border-radius: 3px;
+}
+
+.card-banda a {
+  text-decoration: none;
+}
+
+.card-banda p,
+.card-audio p {
+  display: inline-block;
+  max-width: 45%;
+  font-size: 16px;
+  text-align: justify;
+  margin-left: 25px;
+  vertical-align: top;
+}
+
+.card-audio {
+  margin-top: 15px;
+}
