@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários no HTML</title>
+</head>
+
+<body>
+  <form action="resultados.html" method="get">
+    <div>
+      <label for="txtNome">Nome</label>
+      <input type="text" id="txtNome" name="nome">
+    </div>
+
+    <div>
+      <label for="txtIdade">Idade</label>
+      <input type="number" id="txtIdade" name="idade" min="1" max="100" value="1">
+    </div>
+
+    <br>
+
+    <div>
+      Melhor Fruta <br>
+      <label for="ckbBanana">Banana</label>
+      <input type="radio" id="ckbBanana" name="melhroFruta" value="Banana">
+
+      <label for="ckbMorango">Morango</label>
+      <input type="radio" id="ckbMorango" name="melhroFruta" value="Morango">
+    </div>
+
+    <br>
+
+    <div>
+      <label for="drpMelhorFruta">Melhor Fruta</label>
+      <select name="melhorFruta" id="drpMelhorFruta">
+        <option value="Banana">Banana</option>
+        <option value="Morango">Morango</option>
+      </select>
+    </div>
+
+    <div>
+      <br>
+      <label for="txtContato">Contato</label>
+      <br>
+      <textarea name="descricao" id="txtContato" cols="30" rows="10"></textarea>
+    </div>
+
+    <br>
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+
+</html>
