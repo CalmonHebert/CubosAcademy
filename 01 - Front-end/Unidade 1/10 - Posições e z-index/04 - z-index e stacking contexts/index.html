@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Z-index e stacking contexts</title>
+  <style>
+    .pai {
+      padding: 5px;
+      background-color: rgb(78, 78, 252);
+    }
+
+    .pai2 {
+      padding: 5px;
+      background-color: purple;
+    }
+
+    .filho-um {
+      padding: 5px;
+      background-color: palevioletred;
+      bottom: 10px;
+      position: relative;
+      top: 20px;
+      z-index: 1;
+    }
+
+    .filho-dois {
+      padding: 5px;
+      background-color: green;
+      position: relative;
+      z-index: 2;
+    }
+
+    .filho-tres {
+      padding: 5px;
+      background-color: rgb(236, 57, 57);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="pai">
+    Pai
+    <div class="filho-um filho">Um</div>
+    <div class="filho-dois filho">Dois</div>
+
+  </div>
+
+  <div class="pai2">
+    Pai2
+    <div class="filho-tres filho">Três</div>
+  </div>
+</body>
+
+</html>
