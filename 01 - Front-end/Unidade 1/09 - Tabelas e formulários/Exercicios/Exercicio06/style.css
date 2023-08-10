@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ff6c00;
+  background-image: linear-gradient(90deg, #ff6c00 0%, #c88250 46%, #ffc174 100%);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  align-self: center;
+  box-shadow: 0 4px 4px 0 rgb(122, 61, 4);
+  box-sizing: border-box;
+  width: 400px;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.inputs input {
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.inputs {
+  margin-bottom: 10px;
+}
+
+
+.sexo {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.estado {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.termo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #ff6c00;
+  background-image: linear-gradient(90deg, #ff6c00 0%, #c88250 46%, #ffc174 100%);
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 4px 0 rgb(122, 61, 4);
+
+}
+
+button:hover {
+  background-color: #c88250;
+  background-image: linear-gradient(90deg, #f0b58b 0%, #c88250 46%, #ffc174 100%);
+  box-shadow: none;
+}
