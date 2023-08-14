@@ -1,0 +1,8 @@
+.container {
+  background-image: url(assets/background.svg);
+  height: 100vh;
+}
+
+.card {
+  background-image: url(assets/pattern-quotes.svg);
+}
