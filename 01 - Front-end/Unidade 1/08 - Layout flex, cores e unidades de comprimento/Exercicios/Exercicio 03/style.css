@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #E9EEF6;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1437px;
+  height: 608px;
+  background: #FFF;
+  border-radius: 32px;
+  padding: 60px;
+  justify-content: space-around;
+}
+
+.caixas {
+  display: flex;
+  gap: 15px;
+}
+
+.caixas h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+
+.caixas p {
+  max-width: 328px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.caixa1 {
+  flex: 1 1 429px;
+  height: 330px;
+  background: #F8F2FA;
+  padding: 35px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.caixa2 {
+  flex: 1 1 429px;
+  background: #FAF2F4;
+  padding: 35px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.caixa3 {
+  flex: 1 1 429px;
+  background: #F5F2FA;
+  padding: 40px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container h1 {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+button {
+  border-radius: 3px;
+  background: #0C1727;
+  width: 230px;
+  height: 46px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 20px;
+}
