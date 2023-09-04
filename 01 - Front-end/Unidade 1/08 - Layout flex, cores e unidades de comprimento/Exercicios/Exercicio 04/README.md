@@ -1,21 +1,25 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Front-end
+# Exercício de casa 🏠
 
-## Exercícios de classe 🏫
+## Lista de pessoas
 
-### Item Flex
+Reproduza o layout presente no "Exercício 4" do arquivo figma (.fig) encontrado na raiz do projeto.
 
-**1.** Com base no código de exemplo, modifique o layout de forma que o resultado final seja o da imagem abaixo utilizando as propriedades flex.
+![exercicio](https://i.imgur.com/X20izOD.png)
 
-![](https://i.imgur.com/jDV2x6o.png)
+## Dicas
+
+- Utilize o layout flexbox para dispor os elementos em tela, lembrando que o flexbox é unidirecional, ou seja, só controla uma direção (eixo direto) por vez. Não tenha medo de colocar um elemento somente para mudar o eixo do flex.
+- Não se preocupe em deixar os espaçamentos *pixel-perfect* (exatamente iguais), o objetivo é reproduzir o layout, não copiá-lo.
 
 ---
 
-Faça commit do resultado.
-
 Preencha a checklist para finalizar o exercício:
 
--   [ ] Resolver o exercício
+- [ ] Resolver o exercício revendo a aula se necessário
+- [ ] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos, ou `git add nome_do_arquivo` para adicionar um arquivo específico)
+- [ ] Commitar a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
+- [ ] Pushar os commits na sua branch na origem (`git push origin nome-da-branch`)
 
-###### tags: `front-end` `módulo 1` `exercício de classe` `HTML` `CSS` `flex`
+###### tags: `módulo 1` `front-end` `exercício de casa` `HTML` `CSS`
