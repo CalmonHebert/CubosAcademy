@@ -1,56 +1,25 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Front-end
+# Exercício de classe 🏫
 
-## Exercícios de classe 🏫
+## Feedback
 
-### Container VS Item Flex
+Reproduza o layout presente no "Exercício 2" do arquivo figma (.fig) encontrado na raiz do projeto.
 
-**1.** A imagem abaixo possui uma propriedade CSS usada indevidamente.
+![exercicio](https://i.imgur.com/IrIyZhg.png)
 
-![](https://i.imgur.com/pYMfeYj.png)
+## Dicas
 
-Marque a alternativa que justifica o uso indevido dessa propriedade
-
-**a)** A propriedade `flex-grow` não pode ser usada em um item flex;
-
-**b)** A propriedade `align-self` não pode ser usada em um container, ao menos que ele seja também um item flex;
-
-**c)** O uso da propriedade `display` teria que ser na classe `.item` para que eles fossem um item flex;
-
-**d)** A propriedade `flex-grow` teria que receber o valor `center`;
-
-<details>
-    <summary>Clique aqui para ver a resposta</summary>         <b>Letra B</b>. Para que a propriedade <code>align-self</code> possa ser usada ela precisa ser aplicada dentro de elementos que possuam <code>display:flex;</code>, ou seja, em containers flex.
-</details>
+- Utilize o layout flexbox para dispor os elementos em tela, lembrando que o flexbox é unidirecional, ou seja, só controla uma direção (eixo direto) por vez. Não tenha medo de colocar um elemento somente para mudar o eixo do flex.
+- Não se preocupe em deixar os espaçamentos *pixel-perfect* (exatamente iguais), o objetivo é reproduzir o layout, não copiá-lo.
 
 ---
-
-**2.** Analise o código que está nos arquivos da pasta `questao02` e modifique o CSS de forma que os itens do container fiquem centralizados no eixo indireto e o primeiro item consiga crescer o dobro do segundo.
-
----
-
-**3.** Analise o código que está nos arquivos da pasta `questao03` e modifique o CSS de forma que os itens do container fiquem centralizados no eixo indireto e o segundo item consiga diminuir o triplo do primeiro.
-
----
-
-**4.** Analise o código que está nos arquivos da pasta `questao04` e modifique o CSS de forma que os itens do container fiquem dispostos na vertical, centralizados no eixo indireto e que o segundo item não seja menor que `300px`.
-
----
-
-**5.** Crie uma tela usando os arquivos da pasta `questao05` que atenda os requisitos a seguir:
-
-- Contenha um flex container com `300px` de altura e três flex itens;
-- Os itens serão centralizados no eixo direto e indireto;
-- Cada item só poderá diminuir até `200px` e caso chegue em seu limite de tamanho, seja organizado abaixo dos seus antecessores;
-- O item do meio deverá está posicionado no rodapé do container.
-
----
-
-Faça commit do resultado.
 
 Preencha a checklist para finalizar o exercício:
 
-- [ ] Resolver o exercício
+- [ ] Resolver o exercício revendo a aula se necessário
+- [ ] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos, ou `git add nome_do_arquivo` para adicionar um arquivo específico)
+- [ ] Commitar a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
+- [ ] Pushar os commits na sua branch na origem (`git push origin nome-da-branch`)
 
-###### tags: `front-end` `módulo 1` `exercício de classe` `HTML` `CSS` `flex`
+###### tags: `módulo 1` `front-end` `exercício de classe` `HTML` `CSS`
