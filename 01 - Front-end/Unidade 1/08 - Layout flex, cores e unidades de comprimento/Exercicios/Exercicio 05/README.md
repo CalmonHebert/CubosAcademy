@@ -1,29 +1,25 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Front-end
+# Exercício de casa 🏠
 
-## Exercícios de classe 🏫
+## Card de perfil
 
-### Holy Grail
+Reproduza o layout presente no "Exercício 5" do arquivo figma (.fig) encontrado na raiz do projeto.
 
-**1.** Com base no código de exemplo na pasta `questao01`, crie um layout seguindo a imagem abaixo em que o rodapé seja fixo na parte inferior da página, mesmo quando o conteúdo da página ocupa menos de `100vh` usando o conceito de Holy Grail.
+![exercicio](https://i.imgur.com/nS5xNNT.png)
 
-![](https://i.imgur.com/KCaAT1t.png)
+## Dicas
 
----
-
-**2.** Com base no código desenvolvido na questão anterior, crie tês cards dentro do conteúdo, onde os três cards terão a mesma altura, independente do seu conteúdo e ficarão centralizados no eixo direto e indireto, como na imagem abaixo.
-
-![](https://i.imgur.com/XbECQFL.png)
-
-**Bonus.** Implemente um rodapé fixo nos cards usando o conceito de Holy Grail conforme na questão anterior.
+- Utilize o layout flexbox para dispor os elementos em tela, lembrando que o flexbox é unidirecional, ou seja, só controla uma direção (eixo direto) por vez. Não tenha medo de colocar um elemento somente para mudar o eixo do flex.
+- Não se preocupe em deixar os espaçamentos *pixel-perfect* (exatamente iguais), o objetivo é reproduzir o layout, não copiá-lo.
 
 ---
-
-Faça commit do resultado.
 
 Preencha a checklist para finalizar o exercício:
 
--   [ ] Resolver o exercício
+- [ ] Resolver o exercício revendo a aula se necessário
+- [ ] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos, ou `git add nome_do_arquivo` para adicionar um arquivo específico)
+- [ ] Commitar a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
+- [ ] Pushar os commits na sua branch na origem (`git push origin nome-da-branch`)
 
-###### tags: `front-end` `módulo 1` `exercício de classe` `HTML` `CSS` `flex`
+###### tags: `módulo 1` `front-end` `exercício de casa` `HTML` `CSS`
