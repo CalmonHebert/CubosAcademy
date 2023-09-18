@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200;300;400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ECF2F8;
+    width: 1440px;
+    height: 900px;
+    display: flex;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    max-width: 1110px;
+    max-height: 700px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "daniel daniel jonathan kira"
+        "jeanette patrick patrick kira";
+    gap: 24px;
+}
+
+.container h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 16px;
+    max-width: 476px;
+}
+
+.container p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    opacity: 70%;
+    color: #CFCFCF;
+}
+
+.perfil {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.perfil img {
+    grid-area: span 2;
+    border-radius: 50%;
+    width: 28px;
+}
+
+.perfil h2 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.perfil p {
+    font-size: 11px;
+    font-weight: 500;
+    opacity: 50%;
+}
+
+.daniel {
+    border-radius: 8px;
+    background: #733FC8;
+    grid-area: daniel;
+    padding: 26px 32px;
+}
+
+.jonathan {
+    border-radius: 8px;
+    background: #48556A;
+    grid-area: jonathan;
+    padding: 26px 32px;
+}
+
+.jeanette {
+    border-radius: 8px;
+    background: #fff;
+    grid-area: jeanette;
+    padding: 15px 25px;
+    max-width: 255px;
+    padding: 26px 32px;
+}
+
+.patrick {
+    border-radius: 8px;
+    background: #19202D;
+    grid-area: patrick;
+    padding: 26px 32px;
+}
+
+.kira {
+    border-radius: 8px;
+    background: #fff;
+    grid-area: kira;
+    padding: 26px 32px;
+    max-width: 255px;
+}
+
+.jeanette h3,
+.kira h3,
+.jeanette p,
+.kira p,
+.jeanette h2,
+.kira h2 {
+    color: #48556A;
+}
