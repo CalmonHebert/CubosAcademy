@@ -203,7 +203,7 @@ button {
 
 /* footer */
 footer {
-    padding: 20px;
+    padding: 20px 30px;
     background: rgba(0, 0, 0, 10%);
     margin-top: 150px;
     display: grid;
@@ -215,6 +215,7 @@ footer {
 }
 
 .info-footer {
+
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
