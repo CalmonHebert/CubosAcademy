@@ -241,6 +241,6 @@ footer a:hover {
     color: #26BBA4;
 }
 
-.sociais a img:hover {
-    filter: invert(7%) sepia(1%) saturate(9%) hue-rotate(34deg) brightness(04%) contrast(9%);
+a:hover path {
+    fill: #26BBA4;
 }
