@@ -5,7 +5,7 @@
 }
 
 body {
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -17,30 +17,30 @@ body {
   align-items: center;
 }
 
-.header ul {
+.header nav ul {
   display: flex;
   margin: 0 23px;
 }
 
-.header ul li {
+.header nav ul li {
   list-style: none;
 }
 
-.header ul li a {
+.header nav a {
   text-decoration: none;
   color: #33323D;
   padding: 10px;
 }
 
-.header ul li a:hover {
+.header nav a:hover {
   color: #5FB4A2;
 }
 
 .hero-section {
   margin: 0 auto;
-  width: 1110px;
+  max-width: 1110px;
   height: 600px;
-  background-color: aqua;
-  background-image: url("assets/home/image-homepage-hero.jpg");
+  background-image: url("../assets/home/image-homepage-hero.jpg");
   background-size: contain;
+  background-repeat: no-repeat;
 }
