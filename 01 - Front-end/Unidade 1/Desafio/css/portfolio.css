@@ -1,0 +1,73 @@
+section {
+  display: flex;
+  gap: 125px;
+  max-width: 1015px;
+  margin: 80px auto;
+}
+
+section img {
+  max-width: 540px;
+}
+
+section div {
+  max-width: 350px;
+  border-top: 1px solid #eaeaeb;
+  border-bottom: 1px solid #eaeaeb;
+}
+
+section h1 {
+  font-family: 'Ibarra Real Nova', serif;
+  color: #33323D;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.36px;
+  line-height: 42px;
+  margin-top: 100px;
+}
+
+section p {
+  font-family: 'Public Sans', sans-serif;
+  color: #33323D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+section a {
+  align-self: center;
+  border: 1px solid #33323D;
+  padding: 17px 28px;
+  margin-bottom: 100px;
+  color: #33323D;
+  text-decoration: none;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* .manage-section */
+.manage-section {
+  margin-top: 94px;
+}
+
+.manage-section .card-manage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+/* .bookmark-section */
+
+.contato-section {
+  max-width: 1015px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
