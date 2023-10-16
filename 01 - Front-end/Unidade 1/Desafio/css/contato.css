@@ -1,0 +1,108 @@
+.contato {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: grid;
+}
+
+/* .section-contato */
+.section-contato {
+  padding: 48px 0;
+  display: grid;
+  column-gap: 125px;
+  grid-template-columns: 350px 635px;
+  border-top: 1px solid #eaeaeb;
+  border-bottom: 1px solid #eaeaeb;
+}
+
+.section-contato h1 {
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #33323D;
+  letter-spacing: -0.36px;
+  line-height: 42px;
+}
+
+.section-contato p {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #33323D;
+  line-height: 30px;
+}
+
+.logos-link {
+  grid-column: 2;
+  margin-top: 54px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+/* Fim .section-contato */
+
+.entre-em-contato-section {
+  display: grid;
+  grid-template-columns: 350px 365px;
+  column-gap: 125px;
+  margin-top: 47px;
+  max-height: 455px;
+}
+
+.entre-em-contato-section h1 {
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #33323D;
+  letter-spacing: -0.36px;
+  line-height: 42px;
+}
+
+.entre-em-contato-section label {
+  font-family: 'Public Sans', sans-serif;
+  line-height: 30px;
+  font-weight: 700;
+  color: #33323D;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+form #nome {
+  width: 635px;
+  height: 38px;
+  border: none;
+  background: #eaeaeb;
+  margin-bottom: 24px;
+}
+
+form #email {
+  width: 635px;
+  height: 38px;
+  border: none;
+  background: #eaeaeb;
+  margin-bottom: 24px;
+}
+
+form #msg {
+  width: 635px;
+  height: 96px;
+  border: none;
+  background: #eaeaeb;
+  margin-bottom: 24px;
+}
+
+.entre-em-contato-section a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Public Sans', sans-serif;
+  background: #203a4c;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 17px;
+  max-width: 200px;
+  text-transform: uppercase;
+  margin-bottom: 109px;
+}
