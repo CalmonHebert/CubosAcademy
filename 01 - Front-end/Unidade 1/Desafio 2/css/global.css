@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  background: #F5F5F5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+header {
+  background: #FFF;
+  padding: 13px;
+}
+
+.header-content {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #545454;
+  font-size: 14px;
+  padding: 24px;
+}
+
+/* Fim header */
+
+/* content */
+.content {
+  max-width: 1160px;
+  margin: 56px auto 64px auto;
+  display: grid;
+  grid-template-columns: 730px 380px;
+  column-gap: 50px;
+}
+
+.post {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.contato {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Fim content */
+
+/* footer */
+footer {
+  background: #222222;
+  color: #fff;
+  padding: 25px;
+  text-align: center;
+}
+
+/* Fim footer */

@@ -1,0 +1,11 @@
+.post {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.post h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+}
