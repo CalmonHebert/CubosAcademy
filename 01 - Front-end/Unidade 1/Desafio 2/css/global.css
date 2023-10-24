@@ -86,6 +86,26 @@ nav ul li a {
 .sidebar .categorias {
   display: flex;
   flex-direction: column;
+  margin-top: 25px;
+  position: a;
+}
+
+
+.titulo-h3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  font-size: 18px;
+
+}
+
+.titulo-h3::before {
+  display: flex;
+  content: "";
+  width: 2px;
+  height: 38px;
+  background: #FE0078;
+  margin-right: 11px;
 }
 
 .sidebar .categorias ul li {
