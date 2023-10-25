@@ -1,0 +1,100 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 45px;
+}
+
+.post h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  margin: 24px 24px 8px 24px;
+}
+
+.post p {
+  margin: 24px 24px 0 24px;
+  font-size: 14px;
+}
+
+.post span {
+  color: #929292;
+  font-size: 12px;
+  margin-left: 24px;
+}
+
+.post img {
+  margin-top: 14px;
+}
+
+.lista-sub li {
+  margin-left: 70px;
+}
+
+.lista {
+  margin-top: 25px;
+  margin-left: 62px;
+}
+
+/* form */
+.comentarios {
+  width: 732px;
+  margin: 0 auto;
+}
+
+.comentarios h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.comentarios form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+}
+
+.comentarios label {
+  font-size: 14px;
+}
+
+.comentarios input {
+  width: 354px;
+  height: 42px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  border: none;
+}
+
+.comentarios-email {
+  margin-left: 10px;
+}
+
+.comentarios-coment {
+  width: 732px;
+  grid-column: span 2;
+}
+
+.comentarios-coment input {
+  width: 732px;
+  height: 176px;
+}
+
+.button-comentar {
+  width: 118px;
+  height: 43px;
+  justify-self: end;
+  grid-column: 2;
+  text-decoration: none;
+  color: #fff;
+  background: #fe0078;
+  padding: 12px 24px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+form input:hover {
+  border: 1px solid #FE0078;
+  cursor: pointer;
+}

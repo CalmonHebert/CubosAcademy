@@ -1,0 +1,88 @@
+.contato {
+  padding: 24px;
+  height: 998px;
+}
+
+.contato h1 {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.contato p {
+  margin-bottom: 32px;
+  font-size: 14px;
+}
+
+.info-contato h2 {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.info-contato span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.info-contato p {
+  margin-top: 14px;
+  margin-bottom: 26px;
+}
+
+.info-contato .suporte p:nth-child(odd) {
+  margin-bottom: 40px;
+}
+
+.form-contato h2 {
+  margin-bottom: 24px;
+}
+
+.form-contato form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 24px;
+}
+
+.form-contato label {
+  font-size: 14px;
+}
+
+.form-contato input {
+  margin-top: 8px;
+  border: 1px solid #EEEEEE;
+  width: 329px;
+  height: 42px;
+  border-radius: 2px;
+}
+
+.comentarios-assunto {
+  grid-column: 1/-1;
+  width: 682px;
+  margin-top: 24px;
+}
+
+.comentarios-assunto input {
+  width: 682px;
+}
+
+.comentarios-coment {
+  grid-column: 1/-1;
+  margin-top: 24px;
+}
+
+.comentarios-coment input {
+  width: 682px;
+  height: 176px;
+}
+
+.button-enviar {
+  justify-self: end;
+  grid-column: 2;
+  text-decoration: none;
+  color: #fff;
+  background: #fe0078;
+  padding: 12px 24px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 32px;
+}
